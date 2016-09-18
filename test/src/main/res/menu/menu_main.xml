@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
+    <item android:id="@+id/action_edit"
+        android:title="edit"
+        android:icon="@android:drawable/ic_menu_edit"
+        app:showAsAction="ifRoom"
+        />
+
+    <item android:id="@+id/action_share"
+        android:title="share"
+        android:icon="@android:drawable/ic_menu_share"
+        app:showAsAction="ifRoom"
+        />
+
+    <item android:id="@+id/action_settings_item1"
+        android:title="item1"
+        android:icon="@android:drawable/ic_menu_set_as"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/action_settings_item2"
+        android:title="item2"
+        android:icon="@android:drawable/ic_menu_set_as"
+        app:showAsAction="never"
+        />
+</menu>
